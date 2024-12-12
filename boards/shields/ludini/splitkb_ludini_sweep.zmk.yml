@@ -1,0 +1,11 @@
+file_format: "1"
+id: splitkb_aurora_sweep
+name: Ludini
+type: shield
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - splitkb_ludini_sweep_left
+  - splitkb_ludini_sweep_right
