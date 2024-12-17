@@ -22,9 +22,9 @@
             default_layer {
         bindings = <
         &kp Q &kp W         &kp E       &kp R       &kp t           &kp Y &kp U         &kp I       &kp O       &kp P
-        &kp A &mt LGUI S    &mt RALT D  &mt LCTRL F &kp G           &kp H &mt LCTRL J   &mt RALT K  &mt LGUI L  &kp SQT
+        &kp A &mt RALT S    &mt RALT D  &mt RALT F &kp G           &kp H &mt RALT J   &mt RALT K  &mt RALT L  &kp SQT
         &kp Z &kp X         &kp C       &kp V       &kp B           &kp N &kp M         &kp COMMA   &kp DOT     &kp SLASH
-                                        &lt SPACE 2 &mo 1           &kp SHIFT           &mt ENTER LCTRL(SHIFT(ALT))
+                                        &lt SPACE 2 &mo 1           &kp LSHIFT           &mt ENTER LCTRL(SHIFT(ALT))
         >;
         };
 
