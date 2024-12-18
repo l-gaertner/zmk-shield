@@ -2,11 +2,6 @@
 # SPDX-License-Identifier: MIT
 
 if SHIELD_SPLITKB_AURORA_SWEEP_LEFT
-config ZMK_SPLIT
-    default y
-
-config ZMK_KEYBOARD_NAME
-    default "Ludini"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -14,6 +9,12 @@ config ZMK_SPLIT_ROLE_CENTRAL
 endif # SHIELD_SPLITKB_AURORA_SWEEP_LEFT
 
 if SHIELD_SPLITKB_AURORA_SWEEP_RIGHT || SHIELD_SPLITKB_AURORA_SWEEP_LEFT
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_KEYBOARD_NAME
+    default "Ludini"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default n
