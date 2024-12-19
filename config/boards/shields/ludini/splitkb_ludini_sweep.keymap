@@ -37,7 +37,7 @@
             left_layer {
         bindings = <
         &kp N1  &kp N2      &kp N3      &kp N4      &kp N5          &kp N6      &kp N7      &kp N8      &kp N9      &kp N0
-        &kp ESC &kp STAR    &kp GRAVE   &kp CARET   &kp DLLR        &kp MINUS   &kp EQUAL   &kp LBKT    &kp RBKT    &kp BACKSPACE
+        &kp ESC &hm LGUI STAR    &hm RALT GRAVE   &hm LCTRL CARET   &kp DLLR        &kp MINUS   &hm LCTRL EQUAL   &hm RALT LBKT    &hm LGUI RBKT    &kp BACKSPACE
         &kp TAB &none       &none       &kp SQT     &kp BSLH        &none       &none       &kp LBRC    &kp RBRC    &kp DEL
                                         &trans      &trans          &trans      &trans
         >;
