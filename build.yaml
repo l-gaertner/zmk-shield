@@ -24,4 +24,6 @@ include:
   - board: nice_nano_v2
     shield: splitkb_ludini_sweep_right
   - board: nice_nano_v2
+    shield: dwarf
+  - board: nice_nano_v2
     shield: settings_reset
